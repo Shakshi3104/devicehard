@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CE220B782604A31600054452 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE220B772604A31600054452 /* main.swift */; };
 		CE220B812604A52700054452 /* DeviceHardware in Frameworks */ = {isa = PBXBuildFile; productRef = CE220B802604A52700054452 /* DeviceHardware */; };
+		CE60444E2605671F00B4FFCE /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60444D2605671F00B4FFCE /* DeviceInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		CE220B742604A31600054452 /* GetDeviceInformation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GetDeviceInformation; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE220B772604A31600054452 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE60444D2605671F00B4FFCE /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				CE220B772604A31600054452 /* main.swift */,
+				CE60444D2605671F00B4FFCE /* DeviceInfo.swift */,
 			);
 			path = GetDeviceInformation;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE220B782604A31600054452 /* main.swift in Sources */,
+				CE60444E2605671F00B4FFCE /* DeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
