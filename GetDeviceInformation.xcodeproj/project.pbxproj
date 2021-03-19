@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CE220B782604A31600054452 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE220B772604A31600054452 /* main.swift */; };
+		CE220B812604A52700054452 /* DeviceHardware in Frameworks */ = {isa = PBXBuildFile; productRef = CE220B802604A52700054452 /* DeviceHardware */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE220B812604A52700054452 /* DeviceHardware in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,9 @@
 			dependencies = (
 			);
 			name = GetDeviceInformation;
+			packageProductDependencies = (
+				CE220B802604A52700054452 /* DeviceHardware */,
+			);
 			productName = GetDeviceInformation;
 			productReference = CE220B742604A31600054452 /* GetDeviceInformation */;
 			productType = "com.apple.product-type.tool";
@@ -105,6 +110,9 @@
 				Base,
 			);
 			mainGroup = CE220B6B2604A31600054452;
+			packageReferences = (
+				CE220B7F2604A52700054452 /* XCRemoteSwiftPackageReference "DeviceHardware" */,
+			);
 			productRefGroup = CE220B752604A31600054452 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +293,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE220B7F2604A52700054452 /* XCRemoteSwiftPackageReference "DeviceHardware" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Shakshi3104/DeviceHardware.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE220B802604A52700054452 /* DeviceHardware */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE220B7F2604A52700054452 /* XCRemoteSwiftPackageReference "DeviceHardware" */;
+			productName = DeviceHardware;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CE220B6C2604A31600054452 /* Project object */;
 }
