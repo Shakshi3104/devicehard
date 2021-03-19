@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CE220B742604A31600054452 /* GetDeviceInformation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GetDeviceInformation; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE220B742604A31600054452 /* devicehard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = devicehard; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE220B772604A31600054452 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE60444D2605671F00B4FFCE /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +45,7 @@
 		CE220B6B2604A31600054452 = {
 			isa = PBXGroup;
 			children = (
-				CE220B762604A31600054452 /* GetDeviceInformation */,
+				CE220B762604A31600054452 /* devicehard */,
 				CE220B752604A31600054452 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,26 +53,26 @@
 		CE220B752604A31600054452 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE220B742604A31600054452 /* GetDeviceInformation */,
+				CE220B742604A31600054452 /* devicehard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE220B762604A31600054452 /* GetDeviceInformation */ = {
+		CE220B762604A31600054452 /* devicehard */ = {
 			isa = PBXGroup;
 			children = (
 				CE220B772604A31600054452 /* main.swift */,
 				CE60444D2605671F00B4FFCE /* DeviceInfo.swift */,
 			);
-			path = GetDeviceInformation;
+			path = devicehard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE220B732604A31600054452 /* GetDeviceInformation */ = {
+		CE220B732604A31600054452 /* devicehard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE220B7B2604A31600054452 /* Build configuration list for PBXNativeTarget "GetDeviceInformation" */;
+			buildConfigurationList = CE220B7B2604A31600054452 /* Build configuration list for PBXNativeTarget "devicehard" */;
 			buildPhases = (
 				CE220B702604A31600054452 /* Sources */,
 				CE220B712604A31600054452 /* Frameworks */,
@@ -82,12 +82,12 @@
 			);
 			dependencies = (
 			);
-			name = GetDeviceInformation;
+			name = devicehard;
 			packageProductDependencies = (
 				CE220B802604A52700054452 /* DeviceHardware */,
 			);
 			productName = GetDeviceInformation;
-			productReference = CE220B742604A31600054452 /* GetDeviceInformation */;
+			productReference = CE220B742604A31600054452 /* devicehard */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE220B6F2604A31600054452 /* Build configuration list for PBXProject "GetDeviceInformation" */;
+			buildConfigurationList = CE220B6F2604A31600054452 /* Build configuration list for PBXProject "devicehard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE220B732604A31600054452 /* GetDeviceInformation */,
+				CE220B732604A31600054452 /* devicehard */,
 			);
 		};
 /* End PBXProject section */
@@ -278,7 +278,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE220B6F2604A31600054452 /* Build configuration list for PBXProject "GetDeviceInformation" */ = {
+		CE220B6F2604A31600054452 /* Build configuration list for PBXProject "devicehard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE220B792604A31600054452 /* Debug */,
@@ -287,7 +287,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE220B7B2604A31600054452 /* Build configuration list for PBXNativeTarget "GetDeviceInformation" */ = {
+		CE220B7B2604A31600054452 /* Build configuration list for PBXNativeTarget "devicehard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE220B7C2604A31600054452 /* Debug */,

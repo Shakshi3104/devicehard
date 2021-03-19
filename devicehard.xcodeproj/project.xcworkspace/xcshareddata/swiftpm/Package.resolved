@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DeviceHardware",
+        "repositoryURL": "https://github.com/Shakshi3104/DeviceHardware.git",
+        "state": {
+          "branch": null,
+          "revision": "9709b25c0537ec60aab987236b31861f252a2791",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
