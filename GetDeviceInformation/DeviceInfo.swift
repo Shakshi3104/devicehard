@@ -8,6 +8,8 @@
 import Foundation
 import Metal
 
+// MARK: - sysctlbyname
+/// "machdep.cpu.brand_string"
 func getCpuBrand() -> String {
     var size: Int = 0
     sysctlbyname("machdep.cpu.brand_string", nil, &size, nil, 0)
@@ -17,6 +19,7 @@ func getCpuBrand() -> String {
     return cpuInfo
 }
 
+/// "hw.cpu"
 func getNCpu() -> Int32 {
     var core: Int32 = 0
     var size = MemoryLayout<Int32>.size
@@ -24,6 +27,7 @@ func getNCpu() -> Int32 {
     return core
 }
 
+/// "hw.physicalcpu"
 func getPhysicalCpu() -> Int32 {
     var core: Int32 = 0
     var size = MemoryLayout<Int32>.size
@@ -31,6 +35,7 @@ func getPhysicalCpu() -> Int32 {
     return core
 }
 
+/// "hw.logicalcpu"
 func getLogicalCpu() -> Int32 {
     var core: Int32 = 0
     var size = MemoryLayout<Int32>.size
@@ -38,6 +43,7 @@ func getLogicalCpu() -> Int32 {
     return core
 }
 
+/// "hw.cpufrequency"
 func getCpuFrequency() -> Int64 {
     var freq: Int64 = 0
     var size = MemoryLayout<Int64>.size
@@ -46,6 +52,8 @@ func getCpuFrequency() -> Int64 {
     return freq
 }
 
+// MARK: - Metal
+/// Metal defatul GPU device name
 func getGpuDevice() -> String {
     guard let device = MTLCreateSystemDefaultDevice() else {
         fatalError("Failed to get the system's default Metal device.")
