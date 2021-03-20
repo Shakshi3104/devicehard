@@ -7,7 +7,7 @@ devicehard is a command-line tool to get hardware information of Mac devices.  T
 
 | Intel Mac (MacBook Pro 13-inch, 2018) | M1 Mac (MacBook Pro M1, 2020) |
 | :----------------------: | :---------------------------: |
-| ![](materials/result_intel_mac_v1.png) | Now Printing |
+| ![](materials/result_intel_mac_v1.1.png) | Now Printing |
 
 ## Requirments
 - macOS 11.1+

@@ -34,8 +34,8 @@
 		CE60445426056FD000B4FFCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE60445B260573D500B4FFCE /* result_intel_mac.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result_intel_mac.gif; sourceTree = "<group>"; };
 		CE60445C260573D500B4FFCE /* result_intel_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac.png; sourceTree = "<group>"; };
-		CE6044632605896300B4FFCE /* result_intel_mac_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac_v1.png; sourceTree = "<group>"; };
 		CE6044642605896300B4FFCE /* result_intel_mac_v1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result_intel_mac_v1.gif; sourceTree = "<group>"; };
+		CE60446626058AA900B4FFCE /* result_intel_mac_v1.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac_v1.1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 				CE60445B260573D500B4FFCE /* result_intel_mac.gif */,
 				CE60445C260573D500B4FFCE /* result_intel_mac.png */,
 				CE6044642605896300B4FFCE /* result_intel_mac_v1.gif */,
-				CE6044632605896300B4FFCE /* result_intel_mac_v1.png */,
+				CE60446626058AA900B4FFCE /* result_intel_mac_v1.1.png */,
 			);
 			path = materials;
 			sourceTree = "<group>";

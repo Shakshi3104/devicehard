@@ -28,7 +28,8 @@ struct DeviceHarder: ParsableCommand {
     func run() throws {
         let device = MacDeviceHardware.deviceHardware
         let _ = device.gpu
-
+        
+        // Output device hardware information implemented in DeviceHardware
         print("--------- Mac Device Hardware Information ---------")
         print("Model Name        : \(device.modelName)")
         print("Processor         : \(device.processorName)")
@@ -37,10 +38,14 @@ struct DeviceHarder: ParsableCommand {
         print("GPU               : \(device.gpu)")
         print("Neural Engine     : \(device.neuralEngine)")
         print("RAM               : \(device.ramString)")
+        
+        if !verbose {
         print("---------------------------------------------------")
+        }
 
         if verbose {
-            // Output device information
+            // Output device information not implemented in DeviceHardware
+            // But, hw.machine and hw.model are implemented in DeviceHardware as modelIdentifier
             print("")
             let uiDevice = UIDeviceHardware.deviceHardware
             print("--------------- Detail Information ----------------")
