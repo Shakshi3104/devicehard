@@ -10,17 +10,19 @@
 		CE220B782604A31600054452 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE220B772604A31600054452 /* main.swift */; };
 		CE220B812604A52700054452 /* DeviceHardware in Frameworks */ = {isa = PBXBuildFile; productRef = CE220B802604A52700054452 /* DeviceHardware */; };
 		CE60444E2605671F00B4FFCE /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60444D2605671F00B4FFCE /* DeviceInfo.swift */; };
+		CE6044562605720F00B4FFCE /* devicehard in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE220B742604A31600054452 /* devicehard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CE220B722604A31600054452 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = /usr/local/bin;
 			dstSubfolderSpec = 0;
 			files = (
+				CE6044562605720F00B4FFCE /* devicehard in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -28,6 +30,9 @@
 		CE220B742604A31600054452 /* devicehard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = devicehard; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE220B772604A31600054452 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE60444D2605671F00B4FFCE /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
+		CE60445426056FD000B4FFCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE60445B260573D500B4FFCE /* result_intel_mac.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result_intel_mac.gif; sourceTree = "<group>"; };
+		CE60445C260573D500B4FFCE /* result_intel_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +50,8 @@
 		CE220B6B2604A31600054452 = {
 			isa = PBXGroup;
 			children = (
+				CE60445A2605734000B4FFCE /* materials */,
+				CE60445426056FD000B4FFCE /* README.md */,
 				CE220B762604A31600054452 /* devicehard */,
 				CE220B752604A31600054452 /* Products */,
 			);
@@ -65,6 +72,15 @@
 				CE60444D2605671F00B4FFCE /* DeviceInfo.swift */,
 			);
 			path = devicehard;
+			sourceTree = "<group>";
+		};
+		CE60445A2605734000B4FFCE /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CE60445B260573D500B4FFCE /* result_intel_mac.gif */,
+				CE60445C260573D500B4FFCE /* result_intel_mac.png */,
+			);
+			path = materials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
