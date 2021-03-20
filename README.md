@@ -9,6 +9,30 @@ devicehard is a command-line tool to get hardware information of Mac devices.  T
 | :----------------------: | :---------------------------: |
 | ![](materials/result_intel_mac_v1.1.png) | Now Printing |
 
+## Usage
+```
+USAGE: devicehard [--verbose]
+
+OPTIONS:
+  --verbose               Show information not implemented in DeviceHardware. 
+  --version               Show the version.
+  -h, --help              Show help information.
+```
+
+## Installation
+
+### Download binary file
+1. Download the latest version - https://github.com/Shakshi3104/devicehard/releases
+2. Open terminal app and move to the diectory contating the "devicehard" file
+3. Add the executable permission to the file: `chmod +x devicehard`
+4. Move the file to the /usr/local/bin directory: `mv devicehard /usr/local/bin`
+
+### Complie via Xcode
+1. Clone this repository
+2. Open devicehard.xcodeproj
+3. Modify "Signing & Capabilities" to use your own id
+4. Build: `Command + B`
+
 ## Requirments
 - macOS 11.1+
 - Xcode 12.4+
