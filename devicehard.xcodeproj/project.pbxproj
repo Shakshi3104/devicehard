@@ -11,6 +11,7 @@
 		CE220B812604A52700054452 /* DeviceHardware in Frameworks */ = {isa = PBXBuildFile; productRef = CE220B802604A52700054452 /* DeviceHardware */; };
 		CE60444E2605671F00B4FFCE /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60444D2605671F00B4FFCE /* DeviceInfo.swift */; };
 		CE6044562605720F00B4FFCE /* devicehard in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE220B742604A31600054452 /* devicehard */; };
+		CE604461260582A300B4FFCE /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = CE604460260582A300B4FFCE /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,8 @@
 		CE60445426056FD000B4FFCE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE60445B260573D500B4FFCE /* result_intel_mac.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result_intel_mac.gif; sourceTree = "<group>"; };
 		CE60445C260573D500B4FFCE /* result_intel_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac.png; sourceTree = "<group>"; };
+		CE6044632605896300B4FFCE /* result_intel_mac_v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_intel_mac_v1.png; sourceTree = "<group>"; };
+		CE6044642605896300B4FFCE /* result_intel_mac_v1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = result_intel_mac_v1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE604461260582A300B4FFCE /* ArgumentParser in Frameworks */,
 				CE220B812604A52700054452 /* DeviceHardware in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,6 +83,8 @@
 			children = (
 				CE60445B260573D500B4FFCE /* result_intel_mac.gif */,
 				CE60445C260573D500B4FFCE /* result_intel_mac.png */,
+				CE6044642605896300B4FFCE /* result_intel_mac_v1.gif */,
+				CE6044632605896300B4FFCE /* result_intel_mac_v1.png */,
 			);
 			path = materials;
 			sourceTree = "<group>";
@@ -101,6 +107,7 @@
 			name = devicehard;
 			packageProductDependencies = (
 				CE220B802604A52700054452 /* DeviceHardware */,
+				CE604460260582A300B4FFCE /* ArgumentParser */,
 			);
 			productName = GetDeviceInformation;
 			productReference = CE220B742604A31600054452 /* devicehard */;
@@ -131,6 +138,7 @@
 			mainGroup = CE220B6B2604A31600054452;
 			packageReferences = (
 				CE220B7F2604A52700054452 /* XCRemoteSwiftPackageReference "DeviceHardware" */,
+				CE60445F260582A300B4FFCE /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
 			);
 			productRefGroup = CE220B752604A31600054452 /* Products */;
 			projectDirPath = "";
@@ -323,6 +331,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		CE60445F260582A300B4FFCE /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -330,6 +346,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CE220B7F2604A52700054452 /* XCRemoteSwiftPackageReference "DeviceHardware" */;
 			productName = DeviceHardware;
+		};
+		CE604460260582A300B4FFCE /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE60445F260582A300B4FFCE /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
