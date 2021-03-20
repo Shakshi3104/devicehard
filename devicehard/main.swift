@@ -38,10 +38,6 @@ struct DeviceHarder: ParsableCommand {
         print("GPU               : \(device.gpu)")
         print("Neural Engine     : \(device.neuralEngine)")
         print("RAM               : \(device.ramString)")
-        
-        if !verbose {
-        print("---------------------------------------------------")
-        }
 
         if verbose {
             // Output device information not implemented in DeviceHardware
@@ -58,8 +54,9 @@ struct DeviceHarder: ParsableCommand {
             print("hw.cpufrequency   : \(getCpuFrequency())")
             print("Default Metal GPU : \(getGpuDevice())")
             print("RAM [B]           : \(device.ram)")
-            print("---------------------------------------------------")
         }
+        
+        print("---------------------------------------------------")
     }
 }
 
