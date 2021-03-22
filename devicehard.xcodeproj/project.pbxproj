@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1B6D35260827FD003D5B0F /* devicehard in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE220B742604A31600054452 /* devicehard */; };
 		CE220B782604A31600054452 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE220B772604A31600054452 /* main.swift */; };
 		CE220B812604A52700054452 /* DeviceHardware in Frameworks */ = {isa = PBXBuildFile; productRef = CE220B802604A52700054452 /* DeviceHardware */; };
 		CE60444E2605671F00B4FFCE /* DeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE60444D2605671F00B4FFCE /* DeviceInfo.swift */; };
-		CE6044562605720F00B4FFCE /* devicehard in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE220B742604A31600054452 /* devicehard */; };
 		CE604461260582A300B4FFCE /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = CE604460260582A300B4FFCE /* ArgumentParser */; };
 /* End PBXBuildFile section */
 
@@ -21,13 +21,14 @@
 			dstPath = /usr/local/bin;
 			dstSubfolderSpec = 0;
 			files = (
-				CE6044562605720F00B4FFCE /* devicehard in CopyFiles */,
+				CE1B6D35260827FD003D5B0F /* devicehard in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE1B6D3726082A46003D5B0F /* result_m1_mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = result_m1_mac.png; sourceTree = "<group>"; };
 		CE220B742604A31600054452 /* devicehard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = devicehard; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE220B772604A31600054452 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE60444D2605671F00B4FFCE /* DeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfo.swift; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 			children = (
 				CE6044642605896300B4FFCE /* result_intel_mac_v1.gif */,
 				CE60446626058AA900B4FFCE /* result_intel_mac_v1.1.png */,
+				CE1B6D3726082A46003D5B0F /* result_m1_mac.png */,
 			);
 			path = materials;
 			sourceTree = "<group>";
