@@ -18,7 +18,7 @@ struct DeviceHarder: ParsableCommand {
         Check the output of the package DeviceHardware.
         DeviceHardware: https://github.com/Shakshi3104/DeviceHardware
         """,
-        version: "1.0.1",
+        version: "1.1.0",
         shouldDisplay: true
     )
     

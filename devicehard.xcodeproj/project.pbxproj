@@ -116,7 +116,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					CE220B732604A31600054452 = {
 						CreatedOnToolsVersion = 12.4;
@@ -276,6 +276,7 @@
 		CE220B7C2604A31600054452 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -287,6 +288,7 @@
 		CE220B7D2604A31600054452 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHBF4Z49B6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -323,7 +325,7 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Shakshi3104/DeviceHardware.git";
 			requirement = {
-				kind = upToNextMinorVersion;
+				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
 			};
 		};
