@@ -1,25 +1,24 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "DeviceHardware",
-        "repositoryURL": "https://github.com/Shakshi3104/DeviceHardware.git",
-        "state": {
-          "branch": null,
-          "revision": "9709b25c0537ec60aab987236b31861f252a2791",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "swift-argument-parser",
-        "repositoryURL": "https://github.com/apple/swift-argument-parser",
-        "state": {
-          "branch": null,
-          "revision": "831ed5e860a70e745bc1337830af4786b2576881",
-          "version": "0.4.1"
-        }
+  "originHash" : "238767019940d52ac1456b10448284834f83cb272d381f463aadcd42f1d5363d",
+  "pins" : [
+    {
+      "identity" : "devicehardware",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Shakshi3104/DeviceHardware.git",
+      "state" : {
+        "revision" : "45b2b2629368f38bd721f9dfaa73fbd25f0194e2",
+        "version" : "3.6.1"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser",
+      "state" : {
+        "revision" : "831ed5e860a70e745bc1337830af4786b2576881",
+        "version" : "0.4.1"
+      }
+    }
+  ],
+  "version" : 3
 }
